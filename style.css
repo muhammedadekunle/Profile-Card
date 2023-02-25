@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #23252c;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 317px;
+  height: auto;
+  margin: auto;
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  background-color: #1a1b21;
+}
+
+.profile-photo {
+  width: 317px;
+  height: 250px;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  margin-bottom: 21px;
+}
+
+.name {
+  height: 25.81px;
+  margin: 0px;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.career {
+  font-size: 12.8px;
+  text-align: center;
+  color: #f3bf99;
+  margin-top: 6px;
+  margin-bottom: 9px;
+}
+
+.website {
+  font-size: 10.24px;
+  margin: 0px;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  margin-left: 35px;
+  margin-bottom: 32px;
+  width: 247px;
+  height: 34px;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.mail-text {
+  font-weight: 500;
+  font-size: 14px;
+  color: #374151;
+  margin-left: 8px;
+}
+
+.abt-container {
+  margin-left: 35px;
+}
+
+.abt {
+  font-weight: 700;
+  font-size: 16px;
+  color: #f5f5f5;
+  margin-bottom: 5px;
+}
+
+.abt-me {
+  width: 243px;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #dcdcdc;
+  margin: 0px;
+}
+
+.int-container {
+  margin-left: 35px;
+}
+
+.my-int {
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 17px;
+  margin-bottom: 5px;
+  color: #f5f5f5;
+}
+
+.int-text {
+  width: 247px;
+  margin: 0px;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #dcdcdc;
+}
+
+.footer {
+  width: 317px;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  overflow: hidden;
+}
+
+.footer-ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 19.5px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.footer-ul > li {
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-ul > li > a :hover {
+  border-radius: 3px 3px;
+  background-color: #fffffff3;
+  box-shadow: 0 0 11px #ffffff;
+  cursor: pointer;
+}
