@@ -6,7 +6,7 @@ export default function Interest() {
       <h4 className="my-int">Interest</h4>
       <h4 className="int-text">
         Music scholar. Reader. Internet fanatic. Gamer. Entrepreneur. Travel
-        geek.
+        geek. Foodie.
       </h4>
     </div>
   );
